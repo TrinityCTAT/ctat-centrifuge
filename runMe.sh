@@ -1,0 +1,1 @@
+singularity run -e -B /home/bhaas/ Docker/ctat_centrifuge.v0.0.1.simg centrifuge -p 1 -k 1 -f -U `pwd`/test.seq.fa -x `pwd`/../../../CTAT_GENOMICS/centrifuge_indexes/abvh  --report-file `pwd`/centrifuge.report
